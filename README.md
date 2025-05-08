@@ -85,7 +85,7 @@ All application components are already **containerized** and available on **Dock
   ### 🔹 Clone The Repository
     
   ```bash
-    git clone https://github.com/yourusername/distributed-crawler.git
+    git clone https://github.com/zeyadthereal/distributedCrawler.git
     cd distributed-crawler/k8s-specifications
   ```
   ### 🔹 Deploy The Pods
