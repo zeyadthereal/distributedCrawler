@@ -88,10 +88,11 @@ All application components are already **containerized** and available on **Dock
     git clone https://github.com/zeyadthereal/distributedCrawler.git
     cd distributed-crawler/k8s-specifications
   ```
-  ### 🔹 Deploy The Pods
+  ### 🔹 Deploy The Pods and Services
   ```bash
     kubectl create -f MANIFEST_FILE_NAME.yaml
   ```
+  - Note: create the services first before the deployment (files ending with -service.yaml)
   ### 🔹 Visualize The Deployments
   ```bash
     kubectl get pods -o wide
